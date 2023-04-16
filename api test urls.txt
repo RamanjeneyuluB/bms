@@ -1,0 +1,13 @@
+GET http://localhost:8080/api/allLifts
+GET http://localhost:8080/api/allLiftsHistory
+GET http://localhost:8080/api/lifthistory/1/11:00/12:00
+GET http://localhost:8080/api/lifthistory/1
+POST http://localhost:8080/api/liftMvmnt
+{
+    "liftNumber": 1,
+    "fromFloor": "1F",
+    "toFloor": "9F",
+    "fromTime": "11:00",
+    "toTime": "12:00"
+}
+
